@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>LP Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio3">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <img src="/img/logo.jpg" alt="">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="index.html" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="sobre-mi.html" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="servicios.html" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="portafolio.html" class="seleccionado" onclick="seleccionar(this)">PORTFALIO</a>
+                            </li>
+                            <li><a href="contacto.html" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://wa.link/x43cxa" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" target="_blank" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- SECCION PORTAFOLIO -->
+            <section id="portfolio">
+                <h3 class="titulo-seccion">Mis Proyectos</h3>
+
+                <div class="fila">
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto1.jpg" alt="">
+                        <div class="info">
+                            <h4>Consultor de Criptomonedas</h4>
+                            <p>Proyecto Angular con Estilo SCSS, Responsive utilizando una Cripto-Api llamada desde
+                                Coingecko</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto2.jpg" alt="">
+                        <div class="info">
+                            <h4>PokeDex</h4>
+                            <p>Estructurado en Angular con estilos SCSS, Responsive y llamada de PokeApi, con
+                                funcionalidad de elegir tu PokeTeam personalizados o un equipo Ramdon</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="fila">
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto3.jpg" alt="">
+                        <div class="info">
+                            <h4>Libreria</h4>
+                            <p>Estructurado en HTML ,CSS, JavaScript y Responsive con llamada de API-BOOK simulando una
+                                pagina de comercio de libros </p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto4.png" alt="">
+                        <div class="info">
+                            <h4>E.Commerce Trabajo Grupal</h4>
+                            <p>Este proyecto se realizo en grupo de 5 persona cada integrante se encargo de darle forma
+                                a cada parte del proyecto, su estructura fue creada en angular con estilos scss. </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="fila">
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto5.jpg" alt="">
+                        <div class="info">
+                            <h4>Descripcion Proyecto</h4>
+                            <p>Diseño Web</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto6.jpg" alt="">
+                        <div class="info">
+                            <h4>Proyecto</h4>
+                            <p>Diseño Web</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="fila">
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto7.jpg" alt="">
+                        <div class="info">
+                            <h4>Descripcion Proyecto</h4>
+                            <p>Diseño Web</p>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay"></div>
+                        <img src="img/proyecto8.jpg" alt="">
+                        <div class="info">
+                            <h4>Descripcion Proyecto</h4>
+                            <p>Diseño Web</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- SECCION FOOTER -->
+            <footer>
+                <p>Todos los derechos reservados por Abdel-Saez</p>
+                <div class="redes">
+                    <a href="https://wa.link/x43cxa" target="_blank"><i class="fa-brands fa-whatsapp" ></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+
+            </footer>
+
+            <script src="script.js"></script>
+</body>
+
+</html>

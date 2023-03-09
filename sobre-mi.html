@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>LP Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio2">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <img src="/img/logo.jpg" alt="">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="index.html" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="sobre-mi.html" class="seleccionado" onclick="seleccionar(this)">SOBRE MI</a>
+                            </li>
+                            <li><a href="servicios.html" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="portafolio.html" onclick="seleccionar(this)">PORTFALIO</a></li>
+                            <li><a href="contacto.html" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://wa.link/x43cxa" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Abdel Jesus Saez L.</span> </h2>
+            <h3>Desarrollador Front End</h3>
+            <p>"Como desarrollador front-end, he creado sitios web de marketing y paginas web
+                interactivas y atractivas para empresas y clientes individuales. He trabajado en proyectos que van desde
+                la
+                creación de páginas web simples hasta la construcción de paginas web complejas utilizando
+                tecnologías como HTML, CSS, JavaScript y React."</p>
+
+            <p> Mi experiencia incluye el desarrollo de interfaces de usuario responsivas y escalables, la
+                integración de APIs y la creación de animaciones y efectos visuales para mejorar la experiencia del
+                usuario. También he trabajado en la creacion de sitios web para clientes personales que buscaron
+                crear su pagina web de E-Commerce.</p>
+
+            <p>Soy un apasionado de la tecnología y siempre estoy buscando formas de mejorar mi habilidad en el
+                desarrollo front-end. Me encanta trabajar en equipo y colaborar con diseñadores, desarrolladores de
+                back-end y otros miembros del equipo para crear productos que cumplan con los requisitos y
+                expectativas del cliente.</p>
+
+            <h3>Educación y formación:</h3>
+            BookCamp de Programacion Educamas : (2022-2023)
+            <p>6 Meses de formacion en desarrollo Front End, fortaleciendo habilidades en HTML, CSS, JavaScript,
+                Angular y React desarrollando proyectos grupales e individuales fortaleciendo habiliadades blandas y
+                tecnicas </p>
+            <p>Manejo de control de versiones con Git
+                Conocimiento en Responsive Design y Mobile-first
+                Experiencia en diseño y desarrollo de interfaces de usuario
+                Optimización de rendimiento y carga de páginas web</p>
+            <p>Experiencia en pruebas y depuración de aplicaciones web
+                Conocimientos en metodologías ágiles como Scrum o Kanban.</p>
+
+            Medicina Integral Comunitaria:(2012-2015)
+
+            <p> Universidad de Medicina Integral Comunitaria (MIC), Venezuela, 3 años
+                Materias estudiadas: Salud Colectiva, Epidemiología, Medicina Preventiva, Atención
+                Primaria de la Salud, entre otras.</p>
+            Habailidades adquiridas:
+            <p>
+                Trabajo en equipo, comunicación efectiva con pacientes, atención médica centrada
+                en el paciente, investigación en salud comunitaria, entre otras.
+            </p>
+
+            <p>
+                Prácticas de Medicina General, Centro de Diagnostico Integral (CDI), Venezuela,
+                Responsabilidades: Evaluación de pacientes, diagnóstico y tratamiento de enfermedades comunes,
+                coordinación con otros profesionales de la salud, educación de pacientes sobre hábitos saludables y
+                prevención de enfermedades
+            </p>
+
+            <a href="img/Hoja-de-vida.pdf" download>Descargar CV</a>
+        </div>
+    </section>
+
+
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>GitHub</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Angular</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>React</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="rct"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados por Abdel-Saez</p>
+        <div class="redes">
+            <a href="https://wa.link/x43cxa" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
